@@ -1,0 +1,11 @@
+.heading{
+    background-image: linear-gradient(90deg,#5470ff 8%,#d96eff 77%,#ff9344 88%);
+    color: #26282f;
+    font-weight: 500;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-size: 1.25rem;
+    padding-top: 80px;
+}
