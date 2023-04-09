@@ -70,7 +70,7 @@ const Header = () => {
             </ul>
           </nav>
           <button className="py-2 px-4 bg-[#e19dfa] rounded-[5rem] text-white text-[1rem] font-medium font-[Manrope,sans-serif] ease-in duration-75 hover:opacity-80 hidden md:block ">
-            Let's Talk
+            Let&apos;s Talk
           </button>
           <div
             className={`${styles.menuIcon} ${
@@ -144,7 +144,7 @@ const Header = () => {
           </li>
           <li>
             <a className="py-2 px-4 bg-[#e19dfa] rounded-[5rem] text-white text-[1.35rem] sm:text-[1.1rem] font-medium font-[Manrope,sans-serif] ease-in duration-75 hover:opacity-80 ">
-              Let's Talk
+              Let&apos; Talk
             </a>
           </li>
         </ul>
