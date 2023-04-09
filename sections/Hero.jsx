@@ -1,8 +1,8 @@
 import React, { useLayoutEffect, useRef } from "react";
-import mob1 from "../../asserts/mob1.png";
-import mob2 from "../../asserts/mob2.png";
-import mob3 from "../../asserts/mob3.png";
-import mob4 from "../../asserts/mob4.png";
+import mob1 from "../asserts/mob1.png";
+import mob2 from "../asserts/mob2.png";
+import mob3 from "../asserts/mob3.png";
+import mob4 from "../asserts/mob4.png";
 
 const Hero = () => {
   const sectionContainer = useRef();

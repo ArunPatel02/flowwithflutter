@@ -2,13 +2,13 @@ import Head from "next/head";
 import Image from "next/image";
 import { useState } from "react";
 import styles from "../styles/Home.module.css";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
-import FAQ from "./sections/FAQ";
-import Hero from "./sections/Hero";
-import Portfolio from "./sections/Portfolio";
-import Pricing from "./sections/Pricing";
-import Workflow from "./sections/Workflow";
+import Footer from "../components/Footer";
+import Header from "../components/Header";
+import FAQ from "../sections/FAQ";
+import Hero from "../sections/Hero";
+import Portfolio from "../sections/Portfolio";
+import Pricing from "../sections/Pricing";
+import Workflow from "../sections/Workflow";
 import Script from 'next/script'
 
 export default function Home() {

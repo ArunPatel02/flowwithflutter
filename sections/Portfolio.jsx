@@ -1,17 +1,19 @@
 import React, { useEffect } from "react";
-import styles from "../../styles/portfolio.module.css";
-import mobileImage from "../../asserts/portfolio/mob.png";
-import img1 from "../../asserts/portfolio/img1.png";
-import img2 from "../../asserts/portfolio/img2.png";
-import img3 from "../../asserts/portfolio/img3.png";
-import img4 from "../../asserts/portfolio/img4.png";
+import styles from "../styles/portfolio.module.css";
+import mobileImage from "../asserts/portfolio/mob.png";
+import img1 from "../asserts/portfolio/img1.png";
+import img2 from "../asserts/portfolio/img2.png";
+import img3 from "../asserts/portfolio/img3.png";
+import img4 from "../asserts/portfolio/img4.png";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
 // ..
 
 const Portfolio = () => {
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      disable : "600px"
+    });
   }, []);
 
   return (

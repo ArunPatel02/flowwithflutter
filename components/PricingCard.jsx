@@ -1,11 +1,11 @@
 import React from "react";
-import Tick from "../../asserts/tick.svg";
+import Tick from "../asserts/tick.svg";
 
 const PricingCard = ({
   heading,
   subheading,
   price,
-  points,
+  points = [],
   isPopular = false,
 }) => {
   return (
@@ -47,7 +47,7 @@ const PricingCard = ({
           </span>
         </div>
         <ul className="text-[#575b61] text-[.95rem] font-['Varela Round',sans-serif] mt-6 flex flex-col gap-4">
-          {points.length
+          {points?.length
             ? points.map((item , i) => (
                 <li key={i} className="flex gap-3 items-center">
                   <Tick viewBox="0 0 20 20" className="w-5 h-5" />

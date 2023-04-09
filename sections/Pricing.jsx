@@ -1,6 +1,6 @@
 import React from "react";
-import styles from "../../styles/portfolio.module.css";
-import PricingSvg from "../../asserts/pricing.svg";
+import styles from "../styles/portfolio.module.css";
+import PricingSvg from "../asserts/pricing.svg";
 import PricingCard from "../components/PricingCard";
 
 const Pricing = () => {
@@ -18,17 +18,6 @@ const Pricing = () => {
         <span>for FlutterFlow & Flutter projects</span>
       </div>
       <div className="grid grid-cols-1 justify-items-center md:grid-cols-1 sm:grid-cols-1 gap-8 max-w-[1200px] m-auto px-8 mt-16 items-center">
-        {/* <PricingCard
-          heading="Basic"
-          subheading="Ideal for small changes and simple tasks (building UI components, backend configuration, app publication, etc.)"
-          price="320"
-          points={[
-            "Up to 6 hrs of development",
-            "Up to 6 hrs of development",
-            "Up to 6 hrs of development",
-            "Up to 6 hrs of development",
-          ]}
-        /> */}
         <PricingCard
           heading="Launch"
           subheading="Best if you have your UI designs ready and need to jump-start development in FlutterFlow"
@@ -50,17 +39,6 @@ const Pricing = () => {
           ]}
           isPopular={true}
         />
-        {/* <PricingCard
-          heading="Expert"
-          subheading="Building a complex app and need to outsource highly technical integrations or higher volume tasks?"
-          price="4,700"
-          points={[
-            "Up to 6 hrs of development",
-            "Up to 6 hrs of development",
-            "Up to 6 hrs of development",
-            "Up to 6 hrs of development",
-          ]}
-        /> */}
       </div>
     </div>
   );

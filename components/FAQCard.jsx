@@ -1,5 +1,5 @@
 import React from 'react'
-import DropIcon from "../../asserts/dropicon.svg";
+import DropIcon from "../asserts/dropicon.svg";
 
 const FAQCard = ({question, answer}) => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { useState } from "react";
-import styles from "../../styles/Home.module.css";
+import styles from "../styles/Home.module.css";
 import { Link } from "react-scroll";
 
 const Header = () => {
@@ -10,7 +10,7 @@ const Header = () => {
     setmenuOpen(false);
   };
   return (
-    <header className="bg-[#efeff4] border-solid border-[#d6dae0] border-b-[1px] fixed top-0 right-0 left-0 z-[10000]">
+    <header className="bg-[#efeff4] w-[100vw] border-solid border-[#d6dae0] border-b-[1px] fixed top-0 right-0 left-0 z-[10000]">
       <div className="max-w-7xl m-auto flex gap-6 h-full items-center px-10 py-3">
         <Link
           to="topMain"

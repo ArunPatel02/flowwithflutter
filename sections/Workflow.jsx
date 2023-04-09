@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/portfolio.module.css";
+import styles from "../styles/portfolio.module.css";
 
 const Workflow = () => {
   return (

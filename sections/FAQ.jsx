@@ -1,7 +1,6 @@
 import React from "react";
 // import styles from "../../styles/portfolio.module.css";
 // import PricingSvg from "../../asserts/pricing.svg";
-import DropIcon from "../../asserts/dropicon.svg";
 import FAQCard from "../components/FAQCard";
 
 const FAQ = () => {
