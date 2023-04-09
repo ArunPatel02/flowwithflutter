@@ -7,12 +7,13 @@ import img3 from "../asserts/portfolio/img3.png";
 import img4 from "../asserts/portfolio/img4.png";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
+import Image from "next/image"
 // ..
 
 const Portfolio = () => {
   useEffect(() => {
     AOS.init({
-      disable : "600px"
+      disable : window.innerWidth > 600 ? false : true
     });
   }, []);
 
