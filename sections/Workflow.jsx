@@ -12,7 +12,7 @@ const Workflow = () => {
         <span>everything needed to</span>
         <span className="text-[#e19dfa]">launch an app</span>
       </div>
-      <p className="max-w-[600px] px-5 m-auto mt-6 text-center text-[1.2rem] font-light text-[#26282f] font-bold font-[Merriweather,serif]">
+      <p className="max-w-[600px] px-5 m-auto mt-6 text-center text-[1.2rem] font-light text-[#26282f] font-[Merriweather,serif]">
         Save cost when you build your app with our bespoke and affordable
         <strong className="ml-2 font-semibold"> FlutterFlow & Flutter development </strong> pricing with no
         lock-ins.

@@ -19,7 +19,7 @@ export default function Home() {
         <meta name="description" content="FlowWithFlutter" />
         <meta property="og:title" content="FlowWithFlutter"></meta>
         <meta property="og:description" content="Offering rich application to our customers."></meta>
-        <meta property="og:image" content="/thumbnail.png"></meta>
+        <meta property="og:image" content="https://flowwithflutter.vercel.app/thumbnail.png"></meta>
         <meta property="og:url" content="https://flowwithflutter.vercel.app"></meta>
         <link rel="icon" href="/favicon.svg" />
         <link href="https://fonts.googleapis.com" rel="preconnect" />
