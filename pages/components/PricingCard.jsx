@@ -48,8 +48,8 @@ const PricingCard = ({
         </div>
         <ul className="text-[#575b61] text-[.95rem] font-['Varela Round',sans-serif] mt-6 flex flex-col gap-4">
           {points.length
-            ? points.map((item) => (
-                <li className="flex gap-3 items-center">
+            ? points.map((item , i) => (
+                <li key={i} className="flex gap-3 items-center">
                   <Tick viewBox="0 0 20 20" className="w-5 h-5" />
                   <span className="text-[0.95rem]">{item}</span>
                 </li>
