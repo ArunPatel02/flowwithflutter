@@ -4,18 +4,63 @@ import React from "react";
 import FAQCard from "../components/FAQCard";
 
 const FAQ = () => {
-  const fullExperience = ()=>{
-    const dateStart = new Date("2023/04/01")
-    const dateEnd = new Date()
-    let fulldiff = (dateEnd.getFullYear() - dateStart.getFullYear() - 1)*12 + 11 - dateStart.getMonth() + dateEnd.getMonth()
-    let dif = (fulldiff/12).toFixed(1)
-    console.log(dif)
-    return dif>0?dif:0
-  }
+  const fullExperience = () => {
+    const dateStart = new Date("2023/04/01");
+    const dateEnd = new Date();
+    let fulldiff =
+      (dateEnd.getFullYear() - dateStart.getFullYear() - 1) * 12 +
+      11 -
+      dateStart.getMonth() +
+      dateEnd.getMonth();
+    let dif = (fulldiff / 12).toFixed(1);
+    console.log(dif);
+    return dif > 0 ? dif : 0;
+  };
 
   return (
     <div className="bg-[#26282f] pb-36" name="faq">
       <div className="flex flex-col items-center text-center pt-44 pb-20 px-5 text-4xl text-white gap-2 font-bold font-[Merriweather,serif]">
+        <span>Examples of USP</span>
+      </div>
+      <div className="max-w-4xl px-5 m-auto shadow-[0 10px 15px -10px rgba(31,32,34,.1)] faqWrapper flex flex-col gap-8">
+        <div className="bg-[#fff] rounded-3xl font-[Manrope,sans-serif]">
+          <div className="list-none cursor-pointer p-6 flex gap-5 items-center justify-between ">
+            <span className="text-xl font-semibold text-[#1f2022] ">
+              Here are a few examples of unique selling propositions (USPs) that
+              you may want to consider for your software freelancing company:
+            </span>
+          </div>
+          <div className="p-3 pl-10 pr-8 pt-1 pb-10 text-[#797c83] font-[Varela,sans-serif] text-[1.1rem] leading-[145%]">
+            <ul className="list-disc flex flex-col gap-3">
+              <li>
+                We use Nocode Tools to make software in less time and in
+                affordable price.
+              </li>
+              <li>
+                We specialize in developing custom software solutions for
+                businesses in the [industry] industry.
+              </li>
+              <li>
+                We offer a fixed-price software development model, so you know
+                exactly how much your project will cost before you start.
+              </li>
+              <li>
+                We have a team of dedicated developers who will work on your
+                project from start to finish.
+              </li>
+              <li>
+                We offer a 100% satisfaction guarantee on all of our work.
+              </li>
+              <li>
+                By including a USP in your description, you can help to
+                differentiate your company from the competition and make it more
+                attractive to potential clients.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {/* <div className="flex flex-col items-center text-center pt-44 pb-20 px-5 text-4xl text-white gap-2 font-bold font-[Merriweather,serif]">
         <span>Frequently Asked Questions</span>
       </div>
       <div className="max-w-xl px-5 m-auto shadow-[0 10px 15px -10px rgba(31,32,34,.1)] faqWrapper flex flex-col gap-8">
@@ -37,7 +82,7 @@ const FAQ = () => {
         <span className="text-[#ce4bfd] font-medium">Final Payment </span>
         : Once the project is completed, we send the client a final invoice for the remaining balance. After receiving payment, we close out the project.
         </>} />
-      </div>
+      </div> */}
     </div>
   );
 };

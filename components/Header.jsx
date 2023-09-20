@@ -64,14 +64,14 @@ const Header = () => {
                   duration={(dis) => console.log(dis)}
                   className="cursor-pointer text-[#222] duration-200 ease-in-out hover:text-[#4c6aff]"
                 >
-                  FAQ
+                  USP
                 </Link>
               </li>
             </ul>
           </nav>
-          <button className="py-2 px-4 bg-[#e19dfa] rounded-[5rem] text-white text-[1rem] font-medium font-[Manrope,sans-serif] ease-in duration-75 hover:opacity-80 hidden md:block ">
+          <a href="mailto:ar.arunpatel@gmail.com" target="_blank" className="py-2 px-4 bg-[#e19dfa] rounded-[5rem] text-white text-[1rem] font-medium font-[Manrope,sans-serif] ease-in duration-75 hover:opacity-80 hidden md:block ">
             Let&apos;s Talk
-          </button>
+          </a>
           <div
             className={`${styles.menuIcon} ${
               menuOpen ? styles.open : ""
@@ -139,11 +139,11 @@ const Header = () => {
               delay={500}
               className="cursor-pointer text-[#222] duration-200 ease-in-out hover:text-[#4c6aff]"
             >
-              FAQ
+              USP
             </Link>
           </li>
           <li>
-            <a className="py-2 px-4 bg-[#e19dfa] rounded-[5rem] text-white text-[1.35rem] sm:text-[1.1rem] font-medium font-[Manrope,sans-serif] ease-in duration-75 hover:opacity-80 ">
+            <a href="mailto:ar.arunpatel@gmail.com" target="_blank" className="py-2 px-4 bg-[#e19dfa] rounded-[5rem] text-white text-[1.35rem] sm:text-[1.1rem] font-medium font-[Manrope,sans-serif] ease-in duration-75 hover:opacity-80 ">
               Let&apos; Talk
             </a>
           </li>

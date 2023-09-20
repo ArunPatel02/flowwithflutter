@@ -20,7 +20,7 @@ const Portfolio = () => {
   return (
     <div className="bg-[#efeff4] pt-8 pb-8 mt-5" name="portfolio">
       <div className={styles.heading}>
-        Our recent FlutterFlow & Flutter projects
+        Our recent projects
       </div>
       <div className="max-w-[550px] px-5 m-auto text-center font-ce mt-9 text-6xl text-[#26282f] font-bold font-[Merriweather,serif] leading-[1]">
         Examples of what we can do for you

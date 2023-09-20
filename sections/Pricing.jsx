@@ -15,7 +15,7 @@ const Pricing = () => {
             className="absolute -top-4 -right-8 w-[2.625rem] h-[2.875rem] "
           />{" "}
         </span>
-        <span>for FlutterFlow & Flutter projects</span>
+        <span>for projects</span>
       </div>
       <div className="grid grid-cols-1 justify-items-center md:grid-cols-1 sm:grid-cols-1 gap-8 max-w-[1200px] m-auto px-8 mt-16 items-center">
         <PricingCard
