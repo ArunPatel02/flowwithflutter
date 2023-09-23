@@ -3,7 +3,7 @@ import footerimage from "../asserts/footer.png";
 
 const Footer = () => {
   return (
-    <footer className="px-8 py-14 bg-[#26282f]">
+    <footer className="px-8 py-14 bg-[#08072D]">
       <div className="flex justify-center">
         <img src={footerimage.src} className="h-14" />
       </div>

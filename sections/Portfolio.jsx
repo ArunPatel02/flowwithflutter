@@ -1,28 +1,26 @@
 import React, { useEffect } from "react";
 import styles from "../styles/portfolio.module.css";
 import mobileImage from "../asserts/portfolio/mob.png";
-import img1 from "../asserts/portfolio/img1.png";
-import img2 from "../asserts/portfolio/img2.png";
-import img3 from "../asserts/portfolio/img3.png";
-import img4 from "../asserts/portfolio/img4.png";
+import img1 from "../asserts/portfolio/image2.jpg";
+import img2 from "../asserts/portfolio/image3.jpg";
+import img3 from "../asserts/portfolio/image4.jpg";
+import img4 from "../asserts/portfolio/image5.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
-import Image from "next/image"
+import Image from "next/image";
 // ..
 
 const Portfolio = () => {
   useEffect(() => {
     AOS.init({
-      disable : window.innerWidth > 600 ? false : true
+      disable: window.innerWidth > 600 ? false : true,
     });
   }, []);
 
   return (
-    <div className="bg-[#efeff4] pt-8 pb-8 mt-5" name="portfolio">
-      <div className={styles.heading}>
-        Our recent projects
-      </div>
-      <div className="max-w-[550px] px-5 m-auto text-center font-ce mt-9 text-6xl text-[#26282f] font-bold font-[Merriweather,serif] leading-[1]">
+    <div className="bg-[#08072D] pt-8 pb-8" name="portfolio">
+      <div className={styles.heading}>Our recent projects</div>
+      <div className="max-w-[550px] px-5 m-auto text-center font-ce mt-9 text-6xl text-[#ffff] font-bold font-[Merriweather,serif] leading-[1]">
         Examples of what we can do for you
       </div>
       <div

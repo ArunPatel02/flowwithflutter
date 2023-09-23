@@ -10,7 +10,7 @@ const Header = () => {
     setmenuOpen(false);
   };
   return (
-    <header className="bg-[#efeff4] w-[100vw] border-solid border-[#d6dae0] border-b-[1px] fixed top-0 right-0 left-0 z-[10000]">
+    <header className="bg-[#08072D] w-[100vw] border-solid border-[#08072D] border-b-[1px] fixed top-0 right-0 left-0 z-[10000]">
       <div className="max-w-7xl m-auto flex gap-6 h-full items-center px-10 py-3">
         <Link
           to="topMain"
@@ -29,7 +29,7 @@ const Header = () => {
                   to="workflow"
                   smooth={true}
                   duration={(dis) => console.log(dis)}
-                  className="cursor-pointer text-[#222] duration-200 ease-in-out hover:text-[#4c6aff]"
+                  className="cursor-pointer text-[#ffff] duration-200 ease-in-out hover:text-[#A371FF]"
                 >
                   Workflow
                 </Link>
@@ -40,7 +40,7 @@ const Header = () => {
                   to="portfolio"
                   smooth={true}
                   duration={(dis) => console.log(dis)}
-                  className="cursor-pointer text-[#222] duration-200 ease-in-out hover:text-[#4c6aff]"
+                  className="cursor-pointer text-[#ffff] duration-200 ease-in-out hover:text-[#A371FF]"
                 >
                   Portfolio
                 </Link>
@@ -51,7 +51,7 @@ const Header = () => {
                   to="pricing"
                   smooth={true}
                   duration={(dis) => console.log(dis)}
-                  className="cursor-pointer text-[#222] duration-200 ease-in-out hover:text-[#4c6aff]"
+                  className="cursor-pointer text-[#ffff] duration-200 ease-in-out hover:text-[#A371FF]"
                 >
                   Pricing
                 </Link>
@@ -62,14 +62,14 @@ const Header = () => {
                   to="faq"
                   smooth={true}
                   duration={(dis) => console.log(dis)}
-                  className="cursor-pointer text-[#222] duration-200 ease-in-out hover:text-[#4c6aff]"
+                  className="cursor-pointer text-[#ffff] duration-200 ease-in-out hover:text-[#A371FF]"
                 >
                   USP
                 </Link>
               </li>
             </ul>
           </nav>
-          <a href="mailto:ar.arunpatel@gmail.com" target="_blank" className="py-2 px-4 bg-[#e19dfa] rounded-[5rem] text-white text-[1rem] font-medium font-[Manrope,sans-serif] ease-in duration-75 hover:opacity-80 hidden md:block ">
+          <a href="mailto:ar.arunpatel@gmail.com" target="_blank" className="py-2 px-4 bg-[#A371FF] rounded-[5rem] text-white text-[1rem] font-medium font-[Manrope,sans-serif] ease-in duration-75 hover:opacity-80 hidden md:block ">
             Let&apos;s Talk
           </a>
           <div
@@ -85,7 +85,7 @@ const Header = () => {
         </div>
       </div>
       <nav
-        className={`block p-0 h-0 border-solid border-[#d6dae0] overflow-hidden fixed w-full z-[10000] bg-[#efeff4] transition-all duration-500 ${
+        className={`block p-0 h-0 border-solid border-[#08072D] overflow-hidden fixed w-full z-[10000] bg-[#08072D] transition-all duration-500 ${
           menuOpen ? "h-fit p-5 active" : "h-0 p-0"
         } ${styles.menuopen} ${menuOpen ? styles.active : ""} `}
       >
@@ -98,7 +98,7 @@ const Header = () => {
               onClick={handleMenuInactive}
               duration={(dis) => console.log(dis)}
               delay={500}
-              className="cursor-pointer text-[#222] duration-200 ease-in-out hover:text-[#4c6aff]"
+              className="cursor-pointer text-[#ffff] duration-200 ease-in-out hover:text-[#A371FF]"
             >
               Workflow
             </Link>
@@ -111,7 +111,7 @@ const Header = () => {
               onClick={handleMenuInactive}
               duration={(dis) => console.log(dis)}
               delay={500}
-              className="cursor-pointer text-[#222] duration-200 ease-in-out hover:text-[#4c6aff]"
+              className="cursor-pointer text-[#ffff] duration-200 ease-in-out hover:text-[#A371FF]"
             >
               Portfolio
             </Link>
@@ -124,7 +124,7 @@ const Header = () => {
               onClick={handleMenuInactive}
               duration={(dis) => console.log(dis)}
               delay={500}
-              className="cursor-pointer text-[#222] duration-200 ease-in-out hover:text-[#4c6aff]"
+              className="cursor-pointer text-[#ffff] duration-200 ease-in-out hover:text-[#A371FF]"
             >
               Pricing
             </Link>
@@ -137,13 +137,13 @@ const Header = () => {
               onClick={handleMenuInactive}
               duration={(dis) => console.log(dis)}
               delay={500}
-              className="cursor-pointer text-[#222] duration-200 ease-in-out hover:text-[#4c6aff]"
+              className="cursor-pointer text-[#ffff] duration-200 ease-in-out hover:text-[#A371FF]"
             >
               USP
             </Link>
           </li>
           <li>
-            <a href="mailto:ar.arunpatel@gmail.com" target="_blank" className="py-2 px-4 bg-[#e19dfa] rounded-[5rem] text-white text-[1.35rem] sm:text-[1.1rem] font-medium font-[Manrope,sans-serif] ease-in duration-75 hover:opacity-80 ">
+            <a href="mailto:ar.arunpatel@gmail.com" target="_blank" className="py-2 px-4 bg-[#A371FF] rounded-[5rem] text-white text-[1.35rem] sm:text-[1.1rem] font-medium font-[Manrope,sans-serif] ease-in duration-75 hover:opacity-80 ">
               Let&apos; Talk
             </a>
           </li>

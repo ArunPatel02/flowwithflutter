@@ -18,7 +18,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="bg-[#26282f] pb-36" name="faq">
+    <div className="bg-[#08072D] pb-36" name="faq">
       <div className="flex flex-col items-center text-center pt-44 pb-20 px-5 text-4xl text-white gap-2 font-bold font-[Merriweather,serif]">
         <span>Examples of USP</span>
       </div>

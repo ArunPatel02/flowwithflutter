@@ -50,7 +50,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="bg-[#efeff4]" name="topMain">
+    <div className="bg-[#08072D]" name="topMain">
       <div
         className="h-[190vh] flex flex-col sm:flex-row"
         ref={sectionContainer}
@@ -59,13 +59,13 @@ const Hero = () => {
           className="ml-[4.5rem] mr-12 h-screen flex-[0] sm:flex-[0.4] mt-28 sm:mt-0 sticky top-0"
           ref={headingWrapper}
         >
-          <div className="text-[3.2rem] text-[#26282f] font-[Merriweather,serif] flex flex-col justify-center h-full">
+          <div className="text-[3.2rem] font-[Merriweather,serif] flex flex-col justify-center h-full text-white">
             <h1 className="text-[3.25rem] tracking-[-1px] font-bold leading-[1.25]">
               <span>
                 We build{" "}
-                <span className="text-[#e19dfa] text-[3.25rem]">scalable </span>{" "}
+                <span className="text-[#A371FF] text-[3.25rem]">scalable </span>{" "}
                 and{" "}
-                <span className="text-[#e19dfa] text-[3.25rem]">
+                <span className="text-[#A371FF] text-[3.25rem]">
                   responsive softwares
                 </span>
               </span>

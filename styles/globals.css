@@ -66,3 +66,13 @@ img{
 .faqWrapper details[open] summary span .dropIcon{
   rotate: 90deg;
 }
+
+::-webkit-scrollbar{
+  width: 5px;
+  background-color: #08072D;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #A371FF;
+  border-radius: 10px;
+}

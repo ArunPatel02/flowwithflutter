@@ -5,7 +5,7 @@ import PricingCard from "../components/PricingCard";
 
 const Pricing = () => {
   return (
-    <div className="bg-[#26282f]" name="pricing">
+    <div className="bg-[#08072ded] pb-20" name="pricing">
       <div className={styles.heading}>Pricing</div>
       <div className="flex flex-col items-center text-center mt-8 px-5 text-5xl text-white gap-2 font-bold font-[Merriweather,serif]">
         <span className="flex relative">
