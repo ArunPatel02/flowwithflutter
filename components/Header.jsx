@@ -69,7 +69,7 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-          <a href="mailto:ar.arunpatel@gmail.com" target="_blank" className="py-2 px-4 bg-[#A371FF] rounded-[5rem] text-white text-[1rem] font-medium font-[Manrope,sans-serif] ease-in duration-75 hover:opacity-80 hidden md:block ">
+          <a href="mailto:streakcode123@gmail.com" target="_blank" className="py-2 px-4 bg-[#A371FF] rounded-[5rem] text-white text-[1rem] font-medium font-[Manrope,sans-serif] ease-in duration-75 hover:opacity-80 hidden md:block ">
             Let&apos;s Talk
           </a>
           <div
@@ -143,7 +143,7 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <a href="mailto:ar.arunpatel@gmail.com" target="_blank" className="py-2 px-4 bg-[#A371FF] rounded-[5rem] text-white text-[1.35rem] sm:text-[1.1rem] font-medium font-[Manrope,sans-serif] ease-in duration-75 hover:opacity-80 ">
+            <a href="mailto:streakcode123@gmail.com" target="_blank" className="py-2 px-4 bg-[#A371FF] rounded-[5rem] text-white text-[1.35rem] sm:text-[1.1rem] font-medium font-[Manrope,sans-serif] ease-in duration-75 hover:opacity-80 ">
               Let&apos; Talk
             </a>
           </li>
