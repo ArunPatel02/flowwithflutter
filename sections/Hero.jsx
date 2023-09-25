@@ -63,7 +63,7 @@ const Hero = () => {
           className="ml-[4.5rem] mr-12 h-screen flex-[0] sm:flex-[0.4] mt-28 sm:mt-0 sticky top-0"
           ref={headingWrapper}
         >
-          <div className="text-[3.2rem] font-[Merriweather,serif] flex flex-col justify-center h-full text-white">
+          <div className="text-[3.2rem] font-[Merriweather,serif] flex flex-col justify-start h-full text-white">
             <h1 className="text-[3.25rem] tracking-[-1px] font-bold leading-[1.25]">
               <span>
                 We build{" "}
