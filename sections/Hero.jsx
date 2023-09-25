@@ -1,8 +1,12 @@
 import React, { useLayoutEffect, useRef } from "react";
-import mob1 from "../asserts/mob1.png";
-import mob2 from "../asserts/mob2.png";
-import mob3 from "../asserts/mob3.png";
-import mob4 from "../asserts/mob4.png";
+import mob1 from "../asserts/1.png";
+import mob2 from "../asserts/2.png";
+import mob3 from "../asserts/3.png";
+import mob4 from "../asserts/4.png";
+// import mob1 from "../asserts/mob1.png";
+// import mob2 from "../asserts/mob2.png";
+// import mob3 from "../asserts/mob3.png";
+// import mob4 from "../asserts/mob4.png";
 
 const Hero = () => {
   const sectionContainer = useRef();
@@ -92,22 +96,22 @@ const Hero = () => {
               <li> Mobile app development and Flutterflow.</li>
               <li>Web development</li>
               <li>Desktop application development</li>
-              <li>Software maintenance and suppor</li>
+              <li>Software maintenance and support</li>
             </ul>
           </div>
         </div>
         <div className="flex-[0] sm:flex-[0.6]">
-          <div className="flex gap-1 rotate-[0deg] justify-center mt-14">
-            <div className="flex flex-col gap-3" ref={customMobileWrapper1}>
-              <img src={mob1.src} className="w-[288px]" />
-              <img src={mob2.src} className="w-[288px]" />
+          <div className="flex gap-12 rotate-[0deg] justify-center mt-20">
+            <div className="flex flex-col gap-8" ref={customMobileWrapper1}>
+              <img src={mob1.src} className="w-[250px]" />
+              <img src={mob2.src} className="w-[250px]" />
             </div>
             <div
-              className="flex flex-col gap-1 translate-y-24 sm:translate-y-32"
+              className="flex flex-col gap-8 translate-y-24 sm:translate-y-32"
               ref={customMobileWrapper2}
             >
-              <img src={mob3.src} className="w-[288px]" />
-              <img src={mob4.src} className="w-[288px]" />
+              <img src={mob3.src} className="w-[250px]" />
+              <img src={mob4.src} className="w-[250px]" />
             </div>
           </div>
         </div>

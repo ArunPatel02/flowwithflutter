@@ -20,7 +20,7 @@ const Pricing = () => {
       <div className="grid grid-cols-1 justify-items-center md:grid-cols-1 sm:grid-cols-1 gap-8 max-w-[1200px] m-auto px-8 mt-16 items-center">
         <PricingCard
           heading="Launch"
-          subheading="Best if you have your UI designs ready and need to jump-start development in FlutterFlow"
+          subheading=""
           price=" 45 - 50"
           points={[
             "Mobile and web application development",
