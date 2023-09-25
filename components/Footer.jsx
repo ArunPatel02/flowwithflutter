@@ -12,6 +12,17 @@ const Footer = () => {
       </p>
 
       <p className="text-[#d6dae0] text-[0.875rem] text-center mt-24 font-[Manrope,sans-serif]">
+        Contact us
+        <a
+          href="mailto:streakcode123@gmail.com"
+          target="_blank"
+          className=" text-white text-[1rem]"
+        >
+          : streakcode123@gmail.com
+        </a>
+      </p>
+
+      <p className="text-[#d6dae0] text-[0.875rem] text-center mt-24 font-[Manrope,sans-serif]">
         © 2023 StreakCode
         <br />
         All rights reserved.
