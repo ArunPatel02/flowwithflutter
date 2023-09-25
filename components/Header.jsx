@@ -86,7 +86,7 @@ const Header = () => {
       </div>
       <nav
         className={`block p-0 h-0 border-solid border-[#08072D] overflow-hidden fixed w-full z-[10000] bg-[#08072D] transition-all duration-500 ${
-          menuOpen ? "h-fit p-5 active" : "h-0 p-0"
+          menuOpen ? "h-[20rem] p-5 active" : "h-0 p-0"
         } ${styles.menuopen} ${menuOpen ? styles.active : ""} `}
       >
         <ul className="flex flex-col gap-3 h-full items-center">
