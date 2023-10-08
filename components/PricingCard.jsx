@@ -21,7 +21,7 @@ const PricingCard = ({
           : {}
       }
     >
-      <div className="p-6 lg:p-8 text-[#26282f] font-[Merriweather,serif] bg-[#efeff4] rounded-[1.5rem] h-fit pb-5 lg:pb-10">
+      <div className="p-6 lg:p-8 w-full sm:w-[600px] text-[#26282f] font-[Merriweather,serif] bg-[#efeff4] rounded-[1.5rem] h-fit pb-5 lg:pb-10">
         {isPopular ? (
           <div className="flex justify-end">
             <span

@@ -18,7 +18,7 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <div className="bg-[#08072D] pt-8 pb-8" name="portfolio">
+    <div className="bg-[#08072D] pb-4" name="portfolio">
       <div className={styles.heading}>Our recent projects</div>
       <div className="max-w-[550px] px-5 m-auto text-center font-ce mt-9 text-6xl text-[#ffff] font-bold font-[Merriweather,serif] leading-[1]">
         Examples of what we can do for you

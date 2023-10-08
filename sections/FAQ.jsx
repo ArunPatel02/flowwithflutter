@@ -19,7 +19,7 @@ const FAQ = () => {
 
   return (
     <div className="bg-[#08072D] pb-36" name="faq">
-      <div className="flex flex-col items-center text-center pt-44 pb-20 px-5 text-4xl text-white gap-2 font-bold font-[Merriweather,serif]">
+      <div className="flex flex-col items-center text-center pt-[60px] pb-20 px-5 text-4xl text-white gap-2 font-bold font-[Merriweather,serif]">
         <span>Examples of USP</span>
       </div>
       <div className="max-w-4xl px-5 m-auto shadow-[0 10px 15px -10px rgba(31,32,34,.1)] faqWrapper flex flex-col gap-8">

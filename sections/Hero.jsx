@@ -63,29 +63,31 @@ const Hero = () => {
           className="ml-[4.5rem] mr-12 h-screen flex-[0] sm:flex-[0.4] mt-28 sm:mt-0 sticky top-0"
           ref={headingWrapper}
         >
-          <div className="text-[3.2rem] font-[Merriweather,serif] flex flex-col justify-start h-full text-white">
+          <div className="text-[3.2rem] font-[Merriweather,serif] flex flex-col justify-center h-full text-white">
             <h1 className="text-[3.25rem] tracking-[-1px] font-bold leading-[1.25]">
               <span>
-                We build{" "}
-                <span className="text-[#A371FF] text-[3.25rem]">scalable </span>{" "}
-                and{" "}
+                We build
                 <span className="text-[#A371FF] text-[3.25rem]">
-                  responsive softwares
+                  &nbsp;scalable{" "}
+                </span>
+                &nbsp;and&nbsp;
+                <span className="text-[#A371FF] text-[3.25rem]">
+                responsive softwares&nbsp;
                 </span>
               </span>
-              <span> in less time.</span>
+              <span>in less time.</span>
             </h1>
             <p className="text-[1.125rem] font-medium mt-6 font-[Manrope,sans-serif]">
               We are a team of
               <span className="ml-[6px] font-semibold">
-                experienced and talented software developers
+              &nbsp;experienced and talented software developers
               </span>
-              who offer a wide range of services to businesses of all sizes. We
+              &nbsp;who offer a wide range of services to businesses of all sizes. We
               specialize in developing{" "}
               <span className="ml-[6px] font-semibold">
-                custom software solutions{" "}
+              &nbsp;custom software solutions{" "}
               </span>
-              that meet the specific needs of our clients.We specially use
+              &nbsp;that meet the specific needs of our clients.We specially use
               Nocode tools for minimizing the time.
             </p>
 
